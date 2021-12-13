@@ -226,7 +226,7 @@ def streamlit_theme():
 def main():
     streamlit_theme()
     st.sidebar.write('Please choose one of the three data visualization options:')
-    choose_app = st.sidebar.radio('Please select a data app to run.', ['Home', 'Map', 'Bar Chart', 'Pie Chart'])
+    choose_app = st.sidebar.radio('Please select a data app to run.', ['Home', 'Pie Chart', 'Bar Chart', 'Map'])
     st.sidebar.write("________________________________")
     if choose_app == 'Map':
         st.write('', )
